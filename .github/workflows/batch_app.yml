@@ -29,4 +29,6 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build with Gradle
-      run: ./gradlew clean test
+      run: |
+       chmod +x gradlew
+       ./gradle clean test
