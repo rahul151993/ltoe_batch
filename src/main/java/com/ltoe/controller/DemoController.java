@@ -13,7 +13,7 @@ public class DemoController {
     @RequestMapping("/greeting/{username}")
     public ResponseEntity<String> greeting(@PathVariable String username){
         return new ResponseEntity<>(new StringBuilder()
-                .append("Hello there!")
+                .append("Hello there! This is my first gradle action workflow.")
                 .append(" i am ")
                 .append(username).toString(), HttpStatus.OK);
     }
