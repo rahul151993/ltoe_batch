@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @RequestMapping("/greeting/{username}")
-    public ResponseEntity<String> greeting(@PathVariable String username){
+    public ResponseEntity<String> greeting(@PathVariable String username) {
         return new ResponseEntity<>(new StringBuilder()
                 .append("Hello there! This is my first gradle action workflow.")
                 .append(" i am ")
