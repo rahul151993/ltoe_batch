@@ -20,13 +20,13 @@ public class LtoeApplication implements CommandLineRunner {
 
 	private static final Logger logger = LoggerFactory.getLogger(LtoeApplication.class);
 
-	private JobLauncher jobLauncher;
-	private Job job;
-
-	public LtoeApplication(JobLauncher jobLauncher, Job job) {
-		this.jobLauncher = jobLauncher;
-		this.job = job;
-	}
+//	private JobLauncher jobLauncher;
+//	private Job job;
+//
+//	public LtoeApplication(JobLauncher jobLauncher, Job job) {
+//		this.jobLauncher = jobLauncher;
+//		this.job = job;
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(LtoeApplication.class, args);
